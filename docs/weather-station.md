@@ -8,6 +8,12 @@ The hardware is a RPi4 with a serial HAT connected to ttyS0.
 
 When running, raw NMEA is saved to ./logs
 
+To test serial output from the RPi, try 
+
+```
+(stty 4800 -echo -icrnl; cat) </dev/ttyS0
+```
+
 This version is currently readonly, I will add control and config as needed and has only been tested on the RPi. Version information is:
 
 ```
