@@ -2,9 +2,9 @@
 
 The AIRMAR weather stations are solid and rugged but very expensive. They use ultrasonics rather than a rotating anemometer, so they are not as delicate for the conditions on the NW coast of Ireland.
 
-This script was written to extract data from NMEA0183 serial output on RS232 from a Airmar Weather Station 110WX
+This script was written to extract data from NMEA0183 serial output on RS232 from a Airmar Weather Station 110WX.
 
-The hardware is a RPi4 with a serial HAT connceted to ttyS0.
+The hardware is a RPi4 with a serial HAT connected to ttyS0.
 
 When running, raw NMEA is saved to ./logs
 
