@@ -1,6 +1,8 @@
 # Airmar
 Scripts to read and configure Airmar transducers.
 
+Detailed documentation resides in the /docs directory and is maintained through GITBOOK.
+
 
 To test serial output from the RPi, try 
 
